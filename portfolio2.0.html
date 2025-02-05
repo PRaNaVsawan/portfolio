@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranav Ajit Sawant Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #0077ff;
+            color: white;
+            padding: 20px 50px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2rem;
+        }
+
+        .container {
+            padding: 20px 50px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .about {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .skills span {
+            background-color: #0077ff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-weight: 600;
+            transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+        }
+
+        .skills span:hover {
+            transform: scale(1.1);
+            background-color: #0056b3;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .skills span:active {
+            transform: scale(1.05);
+            background-color: #00408a;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            justify-items: center;
+            align-items: start;
+        }
+
+        .project-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+            width: 100%;
+            max-width: 350px;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            background-color: #f0f8ff;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .project-card h3 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+
+        .project-card p {
+            margin: 10px 0 0;
+            font-size: 1rem;
+            color: #666;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #0077ff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="WhatsApp Image 2025-02-05 at 12.31.39_bd0eec84.jpg" alt="Pranav Sawant">
+        <div>
+            <h1>PRANAV AJIT SAWANT</h1>
+            <p>Passionate Developer | Innovator | Aspiring Game Changer</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="section about">
+            <h2>About Me</h2>
+            <p>I am a student pursuing a Diploma in Computer Engineering (2nd Year). Passionate about web development, game development, and application development, I enjoy learning new technologies and applying them creatively. Alongside my love for technology, I am deeply passionate about fitness and maintaining a healthy lifestyle. I enjoy strength training, cardio, and exploring new workout routines to challenge myself both mentally and physically. My goal is to innovate and make a positive impact in the tech industry while inspiring others to balance their professional ambitions with personal well-being.</p>
+        </section>
+
+        <section class="section skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span>C Programming</span>
+                <span>C++</span>
+                <span>Java</span>
+                <span>Python</span>
+                <span>CSS</span>
+                <span>Web Development</span>
+                <span>Game Development</span>
+                <span>Application Development</span>
+                <span>Weightlifting</span>
+            </div>
+        </section>
+
+        <section class="section projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3>Movie Ticket Booking System</h3>
+                    <p>A simple C-based application to book movie tickets using a 2D array.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>A responsive portfolio website to showcase my work and skills.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Connect with me on <a href="https://www.instagram.com/pranav_s_2007?igsh=MWR3anAyeGgyZWd2dg==">Instagram</a> | <a href="https://www.linkedin.com/in/pranav-sawant-74887b2b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a> | <a href="https://github.com/PRaNaVsawan">GitHub</a></p>
+        <p>Contact: 9619612674 | Email: <a href="mailto:rupranav3@gmail.com">rupranav3@gmail.com</a></p>
+        <p>&copy; 2025 PRANAV AJIT SAWANT. All rights reserved.</p>
+    </footer>
+</body>
+</html>
